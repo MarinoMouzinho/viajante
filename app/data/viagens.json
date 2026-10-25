@@ -1,9 +1,11 @@
 {
   "viagens": [
     {
+      "id": "V001",
       "titulo": "Excursão Serra do Rio do Rastro",
       "responsavel": "Maria Oliveira",
-      "criado_em": "2024-11-15T09:23:00-03:00",
+      "status": "encerrada",
+      "criado_em": "2026-11-15T09:23:00-03:00",
       "categorias": ["Excursão", "Turismo", "Fim de semana"],
       "motorista": "Carlos Andrade",
       "veiculo_tipo": "Ônibus",
@@ -14,8 +16,8 @@
       "origem": "Criciúma - SC",
       "destino": "Bom Jardim da Serra - SC",
       "ponto_embarque_inicial": "Terminal Rodoviário de Criciúma - Plataforma 3",
-      "datahora_ida": "2024-12-07T06:00:00-03:00",
-      "datahora_volta": "2024-12-08T18:30:00-03:00",
+      "datahora_ida": "2026-11-07T06:00:00-03:00",
+      "datahora_volta": "2026-11-08T18:30:00-03:00",
       "assentos": [
         { "numero": 1, "posicao": "janela", "situacao": "pago" },
         { "numero": 2, "posicao": "corredor", "situacao": "pago" },
@@ -28,9 +30,11 @@
       ]
     },
     {
+      "id": "V002",
       "titulo": "Passeio Beto Carrero World",
       "responsavel": "João Pereira",
-      "criado_em": "2024-11-02T14:10:00-03:00",
+      "status": "disponivel",
+      "criado_em": "2026-11-02T14:10:00-03:00",
       "categorias": ["Parque", "Família", "Bate e volta"],
       "motorista": "Fernanda Lima",
       "veiculo_tipo": "Micro-ônibus",
@@ -41,8 +45,8 @@
       "origem": "Florianópolis - SC",
       "destino": "Penha - SC",
       "ponto_embarque_inicial": "Rodoviária Rita Maria - Embarque Central",
-      "datahora_ida": "2024-12-14T05:30:00-03:00",
-      "datahora_volta": "2024-12-14T21:00:00-03:00",
+      "datahora_ida": "2026-12-14T05:30:00-03:00",
+      "datahora_volta": "2026-12-14T21:00:00-03:00",
       "assentos": [
         { "numero": 1, "posicao": "janela", "situacao": "pago" },
         { "numero": 2, "posicao": "corredor", "situacao": "livre" },
@@ -53,9 +57,11 @@
       ]
     },
     {
+      "id": "V003",
       "titulo": "Retiro Espiritual - Serra Negra",
       "responsavel": "Ana Beatriz Souza",
-      "criado_em": "2024-10-20T20:45:00-03:00",
+      "status": "cancelada",
+      "criado_em": "2026-10-20T20:45:00-03:00",
       "categorias": ["Retiro", "Religioso", "Fim de semana"],
       "motorista": "Ricardo Menezes",
       "veiculo_tipo": "Van",
@@ -66,8 +72,8 @@
       "origem": "Campinas - SP",
       "destino": "Serra Negra - SP",
       "ponto_embarque_inicial": "Praça do Pará - Estacionamento em frente ao Shopping",
-      "datahora_ida": "2024-12-20T19:00:00-03:00",
-      "datahora_volta": "2024-12-22T16:00:00-03:00",
+      "datahora_ida": "2026-12-20T19:00:00-03:00",
+      "datahora_volta": "2026-12-22T16:00:00-03:00",
       "assentos": [
         { "numero": 1, "posicao": "janela", "situacao": "reservado" },
         { "numero": 2, "posicao": "corredor", "situacao": "livre" },
@@ -76,9 +82,11 @@
       ]
     },
     {
+      "id": "V004",
       "titulo": "Trilha Pedra do Telégrafo",
       "responsavel": "Lucas Martins",
-      "criado_em": "2024-11-08T08:00:00-03:00",
+      "status": "disponivel",
+      "criado_em": "2026-11-08T08:00:00-03:00",
       "categorias": ["Aventura", "Trilha", "Ecoturismo"],
       "motorista": "Paulo Henrique Dias",
       "veiculo_tipo": "Van",
@@ -89,8 +97,8 @@
       "origem": "Rio de Janeiro - RJ",
       "destino": "Barra de Guaratiba - RJ",
       "ponto_embarque_inicial": "Estação Central do Brasil - Saída Lateral",
-      "datahora_ida": "2024-12-15T04:30:00-03:00",
-      "datahora_volta": "2024-12-15T17:00:00-03:00",
+      "datahora_ida": "2026-12-15T04:30:00-03:00",
+      "datahora_volta": "2026-12-15T17:00:00-03:00",
       "assentos": [
         { "numero": 1, "posicao": "janela", "situacao": "livre" },
         { "numero": 2, "posicao": "corredor", "situacao": "livre" },
