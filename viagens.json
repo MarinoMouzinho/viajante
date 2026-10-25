@@ -1,0 +1,103 @@
+{
+  "viagens": [
+    {
+      "titulo": "Excursão Serra do Rio do Rastro",
+      "responsavel": "Maria Oliveira",
+      "criado_em": "2024-11-15T09:23:00-03:00",
+      "categorias": ["Excursão", "Turismo", "Fim de semana"],
+      "motorista": "Carlos Andrade",
+      "veiculo_tipo": "Ônibus",
+      "veiculo_modelo": "Marcopolo Paradiso G7 1200",
+      "veiculo_placa": "ABC-1D23",
+      "veiculo_descricao": "Ônibus rodoviário com ar-condicionado, wi-fi, tomadas USB e poltronas reclináveis.",
+      "preco_individual": 289.9,
+      "origem": "Criciúma - SC",
+      "destino": "Bom Jardim da Serra - SC",
+      "ponto_embarque_inicial": "Terminal Rodoviário de Criciúma - Plataforma 3",
+      "datahora_ida": "2024-12-07T06:00:00-03:00",
+      "datahora_volta": "2024-12-08T18:30:00-03:00",
+      "assentos": [
+        { "numero": 1, "posicao": "janela", "situacao": "pago" },
+        { "numero": 2, "posicao": "corredor", "situacao": "pago" },
+        { "numero": 3, "posicao": "janela", "situacao": "reservado" },
+        { "numero": 4, "posicao": "corredor", "situacao": "livre" },
+        { "numero": 5, "posicao": "janela", "situacao": "livre" },
+        { "numero": 6, "posicao": "corredor", "situacao": "reservado" },
+        { "numero": 7, "posicao": "janela", "situacao": "livre" },
+        { "numero": 8, "posicao": "corredor", "situacao": "livre" }
+      ]
+    },
+    {
+      "titulo": "Passeio Beto Carrero World",
+      "responsavel": "João Pereira",
+      "criado_em": "2024-11-02T14:10:00-03:00",
+      "categorias": ["Parque", "Família", "Bate e volta"],
+      "motorista": "Fernanda Lima",
+      "veiculo_tipo": "Micro-ônibus",
+      "veiculo_modelo": "Volare Fly 10",
+      "veiculo_placa": "XYZ-4E56",
+      "veiculo_descricao": "Micro-ônibus executivo, ar-condicionado, 32 lugares, bagageiro amplo.",
+      "preco_individual": 450.0,
+      "origem": "Florianópolis - SC",
+      "destino": "Penha - SC",
+      "ponto_embarque_inicial": "Rodoviária Rita Maria - Embarque Central",
+      "datahora_ida": "2024-12-14T05:30:00-03:00",
+      "datahora_volta": "2024-12-14T21:00:00-03:00",
+      "assentos": [
+        { "numero": 1, "posicao": "janela", "situacao": "pago" },
+        { "numero": 2, "posicao": "corredor", "situacao": "livre" },
+        { "numero": 3, "posicao": "janela", "situacao": "reservado" },
+        { "numero": 4, "posicao": "corredor", "situacao": "livre" },
+        { "numero": 5, "posicao": "janela", "situacao": "pago" },
+        { "numero": 6, "posicao": "corredor", "situacao": "livre" }
+      ]
+    },
+    {
+      "titulo": "Retiro Espiritual - Serra Negra",
+      "responsavel": "Ana Beatriz Souza",
+      "criado_em": "2024-10-20T20:45:00-03:00",
+      "categorias": ["Retiro", "Religioso", "Fim de semana"],
+      "motorista": "Ricardo Menezes",
+      "veiculo_tipo": "Van",
+      "veiculo_modelo": "Mercedes-Benz Sprinter 415",
+      "veiculo_placa": "KLM-7G89",
+      "veiculo_descricao": "Van executiva com 16 lugares, ar-condicionado, cortinas e som ambiente.",
+      "preco_individual": 180.0,
+      "origem": "Campinas - SP",
+      "destino": "Serra Negra - SP",
+      "ponto_embarque_inicial": "Praça do Pará - Estacionamento em frente ao Shopping",
+      "datahora_ida": "2024-12-20T19:00:00-03:00",
+      "datahora_volta": "2024-12-22T16:00:00-03:00",
+      "assentos": [
+        { "numero": 1, "posicao": "janela", "situacao": "reservado" },
+        { "numero": 2, "posicao": "corredor", "situacao": "livre" },
+        { "numero": 3, "posicao": "janela", "situacao": "pago" },
+        { "numero": 4, "posicao": "corredor", "situacao": "livre" }
+      ]
+    },
+    {
+      "titulo": "Trilha Pedra do Telégrafo",
+      "responsavel": "Lucas Martins",
+      "criado_em": "2024-11-08T08:00:00-03:00",
+      "categorias": ["Aventura", "Trilha", "Ecoturismo"],
+      "motorista": "Paulo Henrique Dias",
+      "veiculo_tipo": "Van",
+      "veiculo_modelo": "Renault Master",
+      "veiculo_placa": "QWE-2H45",
+      "veiculo_descricao": "Van de apoio para trilha, com espaço para mochilas e equipamentos leves.",
+      "preco_individual": 220.0,
+      "origem": "Rio de Janeiro - RJ",
+      "destino": "Barra de Guaratiba - RJ",
+      "ponto_embarque_inicial": "Estação Central do Brasil - Saída Lateral",
+      "datahora_ida": "2024-12-15T04:30:00-03:00",
+      "datahora_volta": "2024-12-15T17:00:00-03:00",
+      "assentos": [
+        { "numero": 1, "posicao": "janela", "situacao": "livre" },
+        { "numero": 2, "posicao": "corredor", "situacao": "livre" },
+        { "numero": 3, "posicao": "janela", "situacao": "pago" },
+        { "numero": 4, "posicao": "corredor", "situacao": "reservado" },
+        { "numero": 5, "posicao": "janela", "situacao": "livre" }
+      ]
+    }
+  ]
+}
