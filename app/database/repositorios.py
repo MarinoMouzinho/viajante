@@ -60,6 +60,19 @@ def inicializar_banco():
                 FOREIGN KEY (cliente_id)
                     REFERENCES clientes(id)
             );
+             CREATE TABLE IF NOT EXISTS interessados_demanda (
+                demanda_id INTEGER NOT NULL,
+                telegram_id TEXT NOT NULL,
+                criado_em TEXT DEFAULT CURRENT_TIMESTAMP,
+
+                PRIMARY KEY (demanda_id, telegram_id),
+
+                FOREIGN KEY (demanda_id)
+                    REFERENCES demandas_viagem(id),
+
+                FOREIGN KEY (telegram_id)
+                    REFERENCES clientes(telegram_id)
+            )
         """)
         conexao.commit()
     finally:
