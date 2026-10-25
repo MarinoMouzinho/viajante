@@ -1,0 +1,72 @@
+
+# ==============================
+# AMBIENTE PYTHON
+# ==============================
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache e arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# VARIÁVEIS DE AMBIENTE
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# BANCO DE DADOS
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# EDITORES E IDEs
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# SISTEMA OPERACIONAL
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# TESTES E COBERTURA
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# LOGS E ARQUIVOS TEMPORÁRIOS
+# ==============================
+
+*.log
+*.tmp
+temp/
+tmp/
+
+# ==============================
+# DISTRIBUIÇÃO PYTHON
+# ==============================
+
+build/
+dist/
+*.egg-info/
