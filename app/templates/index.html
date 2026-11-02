@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajante | Agente de viagens</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <main class="desktop-window">
+        <header class="title-bar">
+            <div class="title">
+                <span class="title-icon">✈</span>
+                <span>Viajante - Ambiente de Simulação</span>
+            </div>
+
+            <div class="window-controls">
+                <button type="button" disabled>_</button>
+                <button type="button" disabled>□</button>
+                <button type="button" disabled>×</button>
+            </div>
+        </header>
+
+        <nav class="session-bar">
+            <div class="session-tabs" id="sessionTabs">
+            </div>
+
+            <button class="new-session-button" id="newSessionButton" type="button">
+                + Nova sessão
+            </button>
+        </nav>
+
+        <section class="workspace">
+            <section class="chat-panel">
+                <header class="panel-header">
+                    <h2>Chat</h2>
+
+                    <div class="chat-header-actions">
+                        <button
+                            type="button"
+                            id="clearSessionButton"
+                            disabled
+                        >
+                            Limpar conversa
+                        </button>
+
+                        <span class="status">
+                            <span class="status-indicator"></span>
+                            Ambiente local
+                        </span>
+                    </div>
+                </header>
+
+                <div class="chat-content" id="chatMessages">
+                    <div class="welcome-message">
+                        <div class="welcome-icon">✈</div>
+
+                        <h3>Bem-vindo ao Viajante!</h3>
+
+                        <p>
+                            Este é o ambiente de simulação do agente
+                            conversacional da Sintaxe Turismo.
+                        </p>
+
+                        <p class="muted">
+                            Selecione uma sessão e envie sua primeira mensagem.
+                        </p>
+                    </div>
+                </div>
+
+                
+                <footer class="chat-composer">
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Digite sua mensagem..."
+                        autocomplete="off"
+                        disabled
+                    >
+
+                    <button
+                        type="button"
+                        id="sendMessageButton"
+                        disabled
+                    >
+                        Enviar
+                    </button>
+                </footer>
+
+            </section>
+
+            <aside class="debug-panel">
+
+                <header class="panel-header">
+                    <h2>Painel de execução</h2>
+                </header>
+
+                <div class="debug-content">
+                    <section class="debug-section">
+                        <h3>Informações da sessão</h3>
+
+                        <div class="info-row">
+                            <span>Identificador</span>
+                            <strong id="sessionId">--</strong>
+                        </div>
+
+                        <div class="info-row">
+                            <span>Cliente</span>
+                            <strong id="sessionClient">--</strong>
+                        </div>
+
+                        <div class="info-row">
+                            <span>Estado</span>
+                            <strong class="waiting" id="sessionStatus">
+                                Aguardando
+                            </strong>
+                        </div>
+
+                        <div class="info-row">
+                            <span>Criada em</span>
+                            <strong id="sessionCreatedAt">--</strong>
+                        </div>
+                    </section>
+
+                    <section class="debug-section">
+                        <h3>Histórico de ações</h3>
+
+                        <div class="empty-log">
+                            <span>▤</span>
+
+                            <p>Nenhuma ação registrada.</p>
+
+                            <small>
+                                As operações aparecerão aqui.
+                            </small>
+                        </div>
+                    </section>
+
+                    <section class="debug-section">
+                        <h3>Detalhes da execução</h3>
+
+                        <div class="empty-details">
+                            Selecione uma ação para visualizar seus detalhes.
+                        </div>
+                    </section>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+        <footer class="status-bar">
+            <span>Viajante v0.1</span>
+            <span>Ambiente de desenvolvimento</span>
+        </footer>
+
+    </main>
+    <script
+    src="{{ url_for('static', filename='js/main.js') }}"
+></script>
+</body>
+</html>
